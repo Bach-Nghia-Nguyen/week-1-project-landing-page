@@ -1,0 +1,229 @@
+/* General style */
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+.humanizing,
+.different,
+.find-out-more,
+.footer-bg {
+  margin-left: 130px;
+  margin-right: 120px;
+}
+
+.hightlight-action-btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid black;
+  color: black;
+  padding: 10px 25px;
+}
+
+.heading {
+  font-family: "DM Serif Display", serif;
+}
+
+/* Header style */
+header {
+  padding: 15px 0;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+}
+
+header .insure-logo {
+  align-self: center;
+}
+
+.header-nav {
+  padding: 20px 0 20px 10px;
+}
+
+.header-nav .nav-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: hsl(273, 4%, 51%);
+  font-weight: 700;
+}
+
+.header-nav .hightlight-action-btn {
+  margin-left: 40px;
+}
+
+/* Humanizing section style */
+.humanizing-bg {
+  background-color: hsl(256, 26%, 20%);
+  height: 580px;
+}
+
+.humanizing {
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.humanizing img,
+.humanizing-text {
+  align-self: center;
+}
+
+.humanizing-text {
+  width: 460px;
+}
+
+.humanizing-text .heading {
+  font-size: 48px;
+}
+
+.humanizing-text p {
+  margin-bottom: 50px;
+}
+
+.humanizing-text .hightlight-action-btn {
+  color: white;
+  border: 2px solid white;
+}
+
+.humanizing img {
+  margin-top: 30px;
+}
+
+/* Different section style */
+
+.different {
+  height: 580px;
+  padding: 80px 0;
+}
+
+.different h1 {
+  font-size: 48px;
+}
+
+.competences-field {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.competence-item {
+  width: 280px;
+}
+
+/* Find out more section style */
+.find-out-more {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  height: 200px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.find-out-more .heading,
+.find-out-more .hightlight-action-btn {
+  align-self: center;
+}
+
+.find-out-more .heading {
+  width: 300px;
+  font-size: 40px;
+}
+
+.find-out-more .hightlight-action-btn {
+  color: white;
+  border: 2px solid white;
+}
+
+/* Footer style */
+
+footer {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.footer-bg {
+  padding: 60px 0;
+  text-transform: uppercase;
+}
+
+.footer-nav-col p {
+  color: hsl(216, 30%, 68%);
+}
+
+.footer-nav-col a {
+  text-decoration: none;
+  color: hsl(273, 4%, 51%);
+}
+
+.logo-and-social {
+  border-bottom: 1px solid hsl(273, 4%, 51%);
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.logo-and-social .insure-logo,
+.logo-and-social .social {
+  align-self: center;
+}
+
+.logo-and-social .social-icon {
+  margin-left: 10px;
+}
+
+.footer-nav-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav-col {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer-nav-col p {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.footer-nav-link-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.footer-nav-link-col a {
+  margin: 5px 0;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 980px) {
+}
